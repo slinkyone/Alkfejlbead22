@@ -1,0 +1,59 @@
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">Bolti nyilvántartó</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li><a href="/">Vissza</a></li>
+		</ul>
+	</div>
+</nav>
+<div class="form-horizontal col-lg-8 col-lg-offset-2">
+<div class="form-group">
+  <div class="col-lg-12">
+<h1>{{model.nev}} áruház</h1>
+
+Név:
+<td>{{input value=model.nev class="form-control"}}</td>
+<br>
+<button class="btn btn-success" 
+	{{action "saveEdit"}}>
+Mentés
+</button>
+
+<h2>Termék hozzáadása</h2>
+<tr>
+    <th>Termék</th><th>Darabszám</th><th>Ár</th>
+</tr>
+<tr>
+<td>{{input value=ujTermekNev class="form-control"}}</td>
+<td>{{input value=ujTermekDarab class="form-control" type="number"}}</td>
+<td>{{input value=ujTermekAr class="form-control" type="number"}}</td>
+</tr>
+<br>
+<td><button class="btn btn-warning" {{action "addNew"}}>Hozzáad</button></td>
+
+<br><br>
+<h2>Termékek listája</h2>
+<table class="table table-striped">
+	<th>Termék</th><th>Darabszám</th><th>Ár</th>
+{{#each model.termekek as |termek|}}
+<tr>
+    
+</tr>
+<tr>
+<td>{{termek.nev}}</td>
+<td>{{termek.mennyiseg}} darab</td>
+<td>{{termek.ar}} FT</td>
+<td><button class="btn btn-danger" 
+	    {{action "delete" termek.id}}>
+	X</button></td>
+	</tr>
+{{/each}}
+</table>
+
+</div>
+</div>
+</div>
+
+{{outlet}}

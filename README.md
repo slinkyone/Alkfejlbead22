@@ -14,6 +14,7 @@
 
 ### Követelményanalízis
 Az oldalon lehessen felvenni új boltokat, a boltokhoz lehessen hozzárendelni termékeket amikből van nekik készleten.
+FONTOS: TEGYÜK FEL, HOGY MINDEN TERMÉK EGYEDI ÉS NEM LEHET MÁS BOLTBAN KAPNI. 1..n KAPCSOLAT
 
 1. Architektúra terv
   ![alt text](http://i.imgur.com/KEx01xY.png "oldalterv")

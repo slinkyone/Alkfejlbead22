@@ -1,6 +1,5 @@
 # Alkfejlbead22
 
-# Geo-Visit
 ## 3. beadandó feladat - Kuti Bence - HS74YU
 
 - legalább két modellt, egy-sok kapcsolatban [X]

@@ -1,6 +1,6 @@
 # Alkfejlbead22
 
-## 3. beadandó feladat - Kuti Bence - HS74YU
+## 3. beadandó feladat - HS74YU
 
 - legalább két modellt, egy-sok kapcsolatban [X]
 - legalább 1 űrlapot [X]

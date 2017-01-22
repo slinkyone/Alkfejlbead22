@@ -1,4 +1,4 @@
-# Alkfejlbead22
+# Alkfejlbead 3. feladat
 
 ## 3. beadandó feladat - HS74YU
 
